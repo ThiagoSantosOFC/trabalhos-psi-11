@@ -1,0 +1,14 @@
+C:\Users\52315\source\repos\condicoesvb\condicoesvb\bin\Debug\netcoreapp3.1\condicoesvb.exe
+C:\Users\52315\source\repos\condicoesvb\condicoesvb\bin\Debug\netcoreapp3.1\condicoesvb.deps.json
+C:\Users\52315\source\repos\condicoesvb\condicoesvb\bin\Debug\netcoreapp3.1\condicoesvb.runtimeconfig.json
+C:\Users\52315\source\repos\condicoesvb\condicoesvb\bin\Debug\netcoreapp3.1\condicoesvb.runtimeconfig.dev.json
+C:\Users\52315\source\repos\condicoesvb\condicoesvb\bin\Debug\netcoreapp3.1\condicoesvb.dll
+C:\Users\52315\source\repos\condicoesvb\condicoesvb\bin\Debug\netcoreapp3.1\condicoesvb.pdb
+C:\Users\52315\source\repos\condicoesvb\condicoesvb\obj\Debug\netcoreapp3.1\condicoesvb.vbproj.AssemblyReference.cache
+C:\Users\52315\source\repos\condicoesvb\condicoesvb\obj\Debug\netcoreapp3.1\condicoesvb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\52315\source\repos\condicoesvb\condicoesvb\obj\Debug\netcoreapp3.1\condicoesvb.AssemblyInfoInputs.cache
+C:\Users\52315\source\repos\condicoesvb\condicoesvb\obj\Debug\netcoreapp3.1\condicoesvb.AssemblyInfo.vb
+C:\Users\52315\source\repos\condicoesvb\condicoesvb\obj\Debug\netcoreapp3.1\condicoesvb.vbproj.CoreCompileInputs.cache
+C:\Users\52315\source\repos\condicoesvb\condicoesvb\obj\Debug\netcoreapp3.1\condicoesvb.dll
+C:\Users\52315\source\repos\condicoesvb\condicoesvb\obj\Debug\netcoreapp3.1\condicoesvb.pdb
+C:\Users\52315\source\repos\condicoesvb\condicoesvb\obj\Debug\netcoreapp3.1\condicoesvb.genruntimeconfig.cache
