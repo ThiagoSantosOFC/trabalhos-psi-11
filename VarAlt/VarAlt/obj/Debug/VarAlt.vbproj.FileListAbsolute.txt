@@ -1,0 +1,10 @@
+C:\Users\52315\source\repos\VarAlt\VarAlt\bin\Debug\VarAlt.exe.config
+C:\Users\52315\source\repos\VarAlt\VarAlt\bin\Debug\VarAlt.exe
+C:\Users\52315\source\repos\VarAlt\VarAlt\bin\Debug\VarAlt.pdb
+C:\Users\52315\source\repos\VarAlt\VarAlt\bin\Debug\VarAlt.xml
+C:\Users\52315\source\repos\VarAlt\VarAlt\obj\Debug\VarAlt.Resources.resources
+C:\Users\52315\source\repos\VarAlt\VarAlt\obj\Debug\VarAlt.vbproj.GenerateResource.cache
+C:\Users\52315\source\repos\VarAlt\VarAlt\obj\Debug\VarAlt.vbproj.CoreCompileInputs.cache
+C:\Users\52315\source\repos\VarAlt\VarAlt\obj\Debug\VarAlt.exe
+C:\Users\52315\source\repos\VarAlt\VarAlt\obj\Debug\VarAlt.xml
+C:\Users\52315\source\repos\VarAlt\VarAlt\obj\Debug\VarAlt.pdb

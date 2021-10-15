@@ -1,0 +1,16 @@
+C:\Users\52315\source\repos\vetores\vetores\bin\Debug\net5.0\vetores.exe
+C:\Users\52315\source\repos\vetores\vetores\bin\Debug\net5.0\vetores.deps.json
+C:\Users\52315\source\repos\vetores\vetores\bin\Debug\net5.0\vetores.runtimeconfig.json
+C:\Users\52315\source\repos\vetores\vetores\bin\Debug\net5.0\vetores.runtimeconfig.dev.json
+C:\Users\52315\source\repos\vetores\vetores\bin\Debug\net5.0\vetores.dll
+C:\Users\52315\source\repos\vetores\vetores\bin\Debug\net5.0\ref\vetores.dll
+C:\Users\52315\source\repos\vetores\vetores\bin\Debug\net5.0\vetores.pdb
+C:\Users\52315\source\repos\vetores\vetores\obj\Debug\net5.0\vetores.vbproj.AssemblyReference.cache
+C:\Users\52315\source\repos\vetores\vetores\obj\Debug\net5.0\vetores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\52315\source\repos\vetores\vetores\obj\Debug\net5.0\vetores.AssemblyInfoInputs.cache
+C:\Users\52315\source\repos\vetores\vetores\obj\Debug\net5.0\vetores.AssemblyInfo.vb
+C:\Users\52315\source\repos\vetores\vetores\obj\Debug\net5.0\vetores.vbproj.CoreCompileInputs.cache
+C:\Users\52315\source\repos\vetores\vetores\obj\Debug\net5.0\vetores.dll
+C:\Users\52315\source\repos\vetores\vetores\obj\Debug\net5.0\ref\vetores.dll
+C:\Users\52315\source\repos\vetores\vetores\obj\Debug\net5.0\vetores.pdb
+C:\Users\52315\source\repos\vetores\vetores\obj\Debug\net5.0\vetores.genruntimeconfig.cache
