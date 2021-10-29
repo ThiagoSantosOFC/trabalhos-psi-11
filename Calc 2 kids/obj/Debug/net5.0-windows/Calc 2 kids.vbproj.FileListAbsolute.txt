@@ -1,0 +1,18 @@
+C:\Users\52315\source\repos\Calc 2 kids\obj\Debug\net5.0-windows\Calc 2 kids.vbproj.AssemblyReference.cache
+C:\Users\52315\source\repos\Calc 2 kids\obj\Debug\net5.0-windows\Calc_2_kids.frmCalcula.resources
+C:\Users\52315\source\repos\Calc 2 kids\obj\Debug\net5.0-windows\Calc 2 kids.vbproj.GenerateResource.cache
+C:\Users\52315\source\repos\Calc 2 kids\obj\Debug\net5.0-windows\Calc 2 kids.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\52315\source\repos\Calc 2 kids\obj\Debug\net5.0-windows\Calc 2 kids.AssemblyInfoInputs.cache
+C:\Users\52315\source\repos\Calc 2 kids\obj\Debug\net5.0-windows\Calc 2 kids.AssemblyInfo.vb
+C:\Users\52315\source\repos\Calc 2 kids\obj\Debug\net5.0-windows\Calc 2 kids.vbproj.CoreCompileInputs.cache
+C:\Users\52315\source\repos\Calc 2 kids\bin\Debug\net5.0-windows\Calc 2 kids.exe
+C:\Users\52315\source\repos\Calc 2 kids\bin\Debug\net5.0-windows\Calc 2 kids.deps.json
+C:\Users\52315\source\repos\Calc 2 kids\bin\Debug\net5.0-windows\Calc 2 kids.runtimeconfig.json
+C:\Users\52315\source\repos\Calc 2 kids\bin\Debug\net5.0-windows\Calc 2 kids.runtimeconfig.dev.json
+C:\Users\52315\source\repos\Calc 2 kids\bin\Debug\net5.0-windows\Calc 2 kids.dll
+C:\Users\52315\source\repos\Calc 2 kids\bin\Debug\net5.0-windows\ref\Calc 2 kids.dll
+C:\Users\52315\source\repos\Calc 2 kids\bin\Debug\net5.0-windows\Calc 2 kids.pdb
+C:\Users\52315\source\repos\Calc 2 kids\obj\Debug\net5.0-windows\Calc 2 kids.dll
+C:\Users\52315\source\repos\Calc 2 kids\obj\Debug\net5.0-windows\ref\Calc 2 kids.dll
+C:\Users\52315\source\repos\Calc 2 kids\obj\Debug\net5.0-windows\Calc 2 kids.pdb
+C:\Users\52315\source\repos\Calc 2 kids\obj\Debug\net5.0-windows\Calc 2 kids.genruntimeconfig.cache

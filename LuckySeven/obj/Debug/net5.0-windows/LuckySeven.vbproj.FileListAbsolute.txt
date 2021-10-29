@@ -1,0 +1,8 @@
+C:\Users\52315\source\repos\LuckySeven\obj\Debug\net5.0-windows\LuckySeven.vbproj.AssemblyReference.cache
+C:\Users\52315\source\repos\LuckySeven\obj\Debug\net5.0-windows\LuckySeven.frmLuckySeven.resources
+C:\Users\52315\source\repos\LuckySeven\obj\Debug\net5.0-windows\LuckySeven.Resources.resources
+C:\Users\52315\source\repos\LuckySeven\obj\Debug\net5.0-windows\LuckySeven.vbproj.GenerateResource.cache
+C:\Users\52315\source\repos\LuckySeven\obj\Debug\net5.0-windows\LuckySeven.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\52315\source\repos\LuckySeven\obj\Debug\net5.0-windows\LuckySeven.AssemblyInfoInputs.cache
+C:\Users\52315\source\repos\LuckySeven\obj\Debug\net5.0-windows\LuckySeven.AssemblyInfo.vb
+C:\Users\52315\source\repos\LuckySeven\obj\Debug\net5.0-windows\LuckySeven.vbproj.CoreCompileInputs.cache
