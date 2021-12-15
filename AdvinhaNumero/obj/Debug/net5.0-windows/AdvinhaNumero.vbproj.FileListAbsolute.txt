@@ -1,0 +1,8 @@
+C:\Users\52315\source\repos\AdvinhaNumero\obj\Debug\net5.0-windows\AdvinhaNumero.vbproj.AssemblyReference.cache
+C:\Users\52315\source\repos\AdvinhaNumero\obj\Debug\net5.0-windows\AdvinhaNumero.advinhaNum.resources
+C:\Users\52315\source\repos\AdvinhaNumero\obj\Debug\net5.0-windows\AdvinhaNumero.vbproj.GenerateResource.cache
+C:\Users\52315\source\repos\AdvinhaNumero\obj\Debug\net5.0-windows\AdvinhaNumero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\52315\source\repos\AdvinhaNumero\obj\Debug\net5.0-windows\AdvinhaNumero.AssemblyInfoInputs.cache
+C:\Users\52315\source\repos\AdvinhaNumero\obj\Debug\net5.0-windows\AdvinhaNumero.AssemblyInfo.vb
+C:\Users\52315\source\repos\AdvinhaNumero\obj\Debug\net5.0-windows\AdvinhaNumero.vbproj.CoreCompileInputs.cache
+C:\Users\52315\source\repos\AdvinhaNumero\obj\Debug\net5.0-windows\AdvinhaNumero.jogo.resources
