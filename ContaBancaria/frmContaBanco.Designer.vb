@@ -38,18 +38,18 @@ Partial Class frmContaBanco
         '
         'btnEfetuar_Deposito
         '
-        Me.btnEfetuar_Deposito.Location = New System.Drawing.Point(265, 189)
+        Me.btnEfetuar_Deposito.Location = New System.Drawing.Point(271, 173)
         Me.btnEfetuar_Deposito.Name = "btnEfetuar_Deposito"
-        Me.btnEfetuar_Deposito.Size = New System.Drawing.Size(75, 23)
+        Me.btnEfetuar_Deposito.Size = New System.Drawing.Size(75, 56)
         Me.btnEfetuar_Deposito.TabIndex = 1
         Me.btnEfetuar_Deposito.Text = "Efetuar deposito"
         Me.btnEfetuar_Deposito.UseVisualStyleBackColor = True
         '
         'btnMostra_Movimentos
         '
-        Me.btnMostra_Movimentos.Location = New System.Drawing.Point(486, 190)
+        Me.btnMostra_Movimentos.Location = New System.Drawing.Point(407, 173)
         Me.btnMostra_Movimentos.Name = "btnMostra_Movimentos"
-        Me.btnMostra_Movimentos.Size = New System.Drawing.Size(75, 23)
+        Me.btnMostra_Movimentos.Size = New System.Drawing.Size(75, 59)
         Me.btnMostra_Movimentos.TabIndex = 2
         Me.btnMostra_Movimentos.Text = "Mostrar movimentos"
         Me.btnMostra_Movimentos.UseVisualStyleBackColor = True

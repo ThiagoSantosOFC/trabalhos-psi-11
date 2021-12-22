@@ -1,7 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="frmContaBanco%281%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmContaBanco.Designer%281%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmContaBanco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="tiago banco.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

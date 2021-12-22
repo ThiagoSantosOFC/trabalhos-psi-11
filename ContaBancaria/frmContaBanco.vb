@@ -38,6 +38,9 @@
         MsgBox(conta1.Saldo)
     End Sub
 
+    Private Sub btnAbrirConta_Click_1(sender As Object, e As EventArgs) Handles btnAbrirConta.Click
+
+    End Sub
 End Class
 Public Class contabancaria
     Dim iNconta As String
