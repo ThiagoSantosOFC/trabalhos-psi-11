@@ -1,0 +1,18 @@
+C:\Users\52315\source\repos\Paises e Cidades\obj\Debug\net5.0-windows\Paises e Cidades.vbproj.AssemblyReference.cache
+C:\Users\52315\source\repos\Paises e Cidades\obj\Debug\net5.0-windows\Paises_e_Cidades.frmPaises_E_Cidades.resources
+C:\Users\52315\source\repos\Paises e Cidades\obj\Debug\net5.0-windows\Paises e Cidades.vbproj.GenerateResource.cache
+C:\Users\52315\source\repos\Paises e Cidades\obj\Debug\net5.0-windows\Paises e Cidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\52315\source\repos\Paises e Cidades\obj\Debug\net5.0-windows\Paises e Cidades.AssemblyInfoInputs.cache
+C:\Users\52315\source\repos\Paises e Cidades\obj\Debug\net5.0-windows\Paises e Cidades.AssemblyInfo.vb
+C:\Users\52315\source\repos\Paises e Cidades\obj\Debug\net5.0-windows\Paises e Cidades.vbproj.CoreCompileInputs.cache
+C:\Users\52315\source\repos\Paises e Cidades\bin\Debug\net5.0-windows\Paises e Cidades.exe
+C:\Users\52315\source\repos\Paises e Cidades\bin\Debug\net5.0-windows\Paises e Cidades.deps.json
+C:\Users\52315\source\repos\Paises e Cidades\bin\Debug\net5.0-windows\Paises e Cidades.runtimeconfig.json
+C:\Users\52315\source\repos\Paises e Cidades\bin\Debug\net5.0-windows\Paises e Cidades.runtimeconfig.dev.json
+C:\Users\52315\source\repos\Paises e Cidades\bin\Debug\net5.0-windows\Paises e Cidades.dll
+C:\Users\52315\source\repos\Paises e Cidades\bin\Debug\net5.0-windows\ref\Paises e Cidades.dll
+C:\Users\52315\source\repos\Paises e Cidades\bin\Debug\net5.0-windows\Paises e Cidades.pdb
+C:\Users\52315\source\repos\Paises e Cidades\obj\Debug\net5.0-windows\Paises e Cidades.dll
+C:\Users\52315\source\repos\Paises e Cidades\obj\Debug\net5.0-windows\ref\Paises e Cidades.dll
+C:\Users\52315\source\repos\Paises e Cidades\obj\Debug\net5.0-windows\Paises e Cidades.pdb
+C:\Users\52315\source\repos\Paises e Cidades\obj\Debug\net5.0-windows\Paises e Cidades.genruntimeconfig.cache
