@@ -1,0 +1,16 @@
+C:\Users\52315\source\repos\BinaryManagerCLI\bin\Debug\net5.0\BinaryManagerCLI.exe
+C:\Users\52315\source\repos\BinaryManagerCLI\bin\Debug\net5.0\BinaryManagerCLI.deps.json
+C:\Users\52315\source\repos\BinaryManagerCLI\bin\Debug\net5.0\BinaryManagerCLI.runtimeconfig.json
+C:\Users\52315\source\repos\BinaryManagerCLI\bin\Debug\net5.0\BinaryManagerCLI.runtimeconfig.dev.json
+C:\Users\52315\source\repos\BinaryManagerCLI\bin\Debug\net5.0\BinaryManagerCLI.dll
+C:\Users\52315\source\repos\BinaryManagerCLI\bin\Debug\net5.0\ref\BinaryManagerCLI.dll
+C:\Users\52315\source\repos\BinaryManagerCLI\bin\Debug\net5.0\BinaryManagerCLI.pdb
+C:\Users\52315\source\repos\BinaryManagerCLI\obj\Debug\net5.0\BinaryManagerCLI.vbproj.AssemblyReference.cache
+C:\Users\52315\source\repos\BinaryManagerCLI\obj\Debug\net5.0\BinaryManagerCLI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\52315\source\repos\BinaryManagerCLI\obj\Debug\net5.0\BinaryManagerCLI.AssemblyInfoInputs.cache
+C:\Users\52315\source\repos\BinaryManagerCLI\obj\Debug\net5.0\BinaryManagerCLI.AssemblyInfo.vb
+C:\Users\52315\source\repos\BinaryManagerCLI\obj\Debug\net5.0\BinaryManagerCLI.vbproj.CoreCompileInputs.cache
+C:\Users\52315\source\repos\BinaryManagerCLI\obj\Debug\net5.0\BinaryManagerCLI.dll
+C:\Users\52315\source\repos\BinaryManagerCLI\obj\Debug\net5.0\ref\BinaryManagerCLI.dll
+C:\Users\52315\source\repos\BinaryManagerCLI\obj\Debug\net5.0\BinaryManagerCLI.pdb
+C:\Users\52315\source\repos\BinaryManagerCLI\obj\Debug\net5.0\BinaryManagerCLI.genruntimeconfig.cache
