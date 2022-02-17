@@ -1,9 +1,27 @@
 ﻿Imports System.IO
 Imports System.IO.Ports
+Public Class Dados
+    Dim int_IDleitura As Integer
+    Dim data_Reg As Date = Date.Now
+    Dim temp As Double
+    Dim Hum As Double
+    Dim flag As Boolean
+End Class
 Public Class frmDHT
 
+
     Dim lista_dados As New ArrayList
-    Sub frmDHT_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Public Sub frmDHT_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Public com6 As IO.Ports.SerialPort = Nothing
+        Try
+            com6 = My.Computer.Ports.OpenSerialPort("COM6")
+            com6.ReadTimeout = 10000
+
+        Catch ex As TimeoutException
+            returnStr = "Erro: tempo de leitura da porta expirado."
+        Finally
+            If com6 IsNot Nothing Then com6.Close()
+        End Try
         Dim f1 As FileStream = New FileStream("dados.bin", FileMode.OpenOrCreate, FileAccess.ReadWrite)
         Dim ReaderF1 As New BinaryReader(f1)
 
@@ -27,10 +45,3 @@ Public Class frmDHT
     End Sub
 End Class
 
-Public Class Dados
-    Dim int_IDleitura As Integer
-    Dim data_Reg As Date = Date.Now
-    Dim temp As Double
-    Dim Hum As Double
-    Dim flag As Boolean
-End Class
