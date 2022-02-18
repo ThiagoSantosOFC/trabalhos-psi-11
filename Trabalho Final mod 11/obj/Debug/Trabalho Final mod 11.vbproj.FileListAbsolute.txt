@@ -9,3 +9,4 @@ C:\Users\52315\source\repos\Trabalho Final mod 11\bin\Debug\Trabalho Final mod 1
 C:\Users\52315\source\repos\Trabalho Final mod 11\obj\Debug\Trabalho Final mod 11.exe
 C:\Users\52315\source\repos\Trabalho Final mod 11\obj\Debug\Trabalho Final mod 11.xml
 C:\Users\52315\source\repos\Trabalho Final mod 11\obj\Debug\Trabalho Final mod 11.pdb
+C:\Users\52315\source\repos\Trabalho Final mod 11\obj\Debug\Trabalho Final mod 11.vbproj.AssemblyReference.cache
