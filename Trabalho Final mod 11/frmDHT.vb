@@ -1,18 +1,12 @@
 ﻿Imports System.IO
 Imports System.IO.Ports
-Public Class Dados
-    Dim int_IDleitura As Integer
-    Dim data_Reg As Date = Date.Now
-    Dim temp As Double
-    Dim Hum As Double
-    Dim flag As Boolean
-End Class
+
 Public Class frmDHT
 
-
     Dim lista_dados As New ArrayList
-    Public Sub frmDHT_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Public com6 As IO.Ports.SerialPort = Nothing
+    Dim returnStr As String
+    Private Sub frmDHT_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim com6 As IO.Ports.SerialPort = Nothing
         Try
             com6 = My.Computer.Ports.OpenSerialPort("COM6")
             com6.ReadTimeout = 10000
@@ -29,7 +23,7 @@ Public Class frmDHT
             MsgBox("Ficheiro vazio, sem produtos registrados")
         Else
             Do While ReaderF1.PeekChar <> -1
-                Dim novo As New Dados
+                Dim novo As New Dados()
                 novo.int_IDleitura = ReaderF1.ReadInt32()
                 novo.data_Reg = ReaderF1.ReadString()
                 novo.temp = ReaderF1.ReadDouble()

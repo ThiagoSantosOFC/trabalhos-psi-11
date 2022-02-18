@@ -73,6 +73,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.vb" />
     <Compile Include="frmDHT.vb" />
     <Compile Include="frmDHT.Designer.vb">
       <DependentUpon>frmDHT.vb</DependentUpon>

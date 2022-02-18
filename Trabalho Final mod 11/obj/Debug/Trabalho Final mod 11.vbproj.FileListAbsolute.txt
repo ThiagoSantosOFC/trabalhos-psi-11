@@ -1,0 +1,11 @@
+C:\Users\52315\source\repos\Trabalho Final mod 11\obj\Debug\Trabalho_Final_mod_11.frmDHT.resources
+C:\Users\52315\source\repos\Trabalho Final mod 11\obj\Debug\Trabalho_Final_mod_11.Resources.resources
+C:\Users\52315\source\repos\Trabalho Final mod 11\obj\Debug\Trabalho Final mod 11.vbproj.GenerateResource.cache
+C:\Users\52315\source\repos\Trabalho Final mod 11\obj\Debug\Trabalho Final mod 11.vbproj.CoreCompileInputs.cache
+C:\Users\52315\source\repos\Trabalho Final mod 11\bin\Debug\Trabalho Final mod 11.exe.config
+C:\Users\52315\source\repos\Trabalho Final mod 11\bin\Debug\Trabalho Final mod 11.exe
+C:\Users\52315\source\repos\Trabalho Final mod 11\bin\Debug\Trabalho Final mod 11.pdb
+C:\Users\52315\source\repos\Trabalho Final mod 11\bin\Debug\Trabalho Final mod 11.xml
+C:\Users\52315\source\repos\Trabalho Final mod 11\obj\Debug\Trabalho Final mod 11.exe
+C:\Users\52315\source\repos\Trabalho Final mod 11\obj\Debug\Trabalho Final mod 11.xml
+C:\Users\52315\source\repos\Trabalho Final mod 11\obj\Debug\Trabalho Final mod 11.pdb
