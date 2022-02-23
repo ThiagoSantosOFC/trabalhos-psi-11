@@ -11,8 +11,6 @@ Public Class frmDHT
     Dim ler As String
     Private Sub frmDHT_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        Dim com6 As IO.Ports.SerialPort = Nothing
-
         Dim f1 As FileStream = New FileStream("dados.bin", FileMode.OpenOrCreate, FileAccess.ReadWrite)
         Dim ReaderF1 As New BinaryReader(f1)
 
@@ -30,16 +28,24 @@ Public Class frmDHT
         ReaderF1.Close()
         f1.Close()
 
-        Do
-            Dim recebe As String = com6.ReadLine()
-            If recebe Is Nothing Then
-                Exit Do
-            Else
-                returnStr &= recebe & vbCrLf
-            End If
-        Loop
-        MsgBox(returnStr)
+
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        SerialPort1.PortName = ComboBox1.Text
+        Try
+            SerialPort1.Open()
+
+            Label5.Text = "Conexão Ativa"
+        Catch ex As Exception
+            MsgBox("Porta não está aberta")
+            If SerialPort1.IsOpen = False Then
+                MsgBox("Porta não está aberta")
+            End If
+        End Try
+    End Sub
+
+
     Private Sub readPort()
         Do While True
             Try
