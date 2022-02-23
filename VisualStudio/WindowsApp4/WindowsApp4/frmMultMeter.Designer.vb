@@ -27,15 +27,15 @@ Partial Class frmMultMeter
         Me.Button2 = New System.Windows.Forms.Button()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.lblconexao = New System.Windows.Forms.Label()
         Me.SerialPort1 = New System.IO.Ports.SerialPort(Me.components)
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Idleitura = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Datadaleitura = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TemepraturaLida = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.humidade = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.OK = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -76,59 +76,15 @@ Partial Class frmMultMeter
         Me.TextBox1.Size = New System.Drawing.Size(205, 161)
         Me.TextBox1.TabIndex = 3
         '
-        'Timer1
+        'lblconexao
         '
-        Me.Timer1.Interval = 350
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(24, 43)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(132, 55)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "0000"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(24, 98)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(132, 55)
-        Me.Label2.TabIndex = 5
-        Me.Label2.Text = "0000"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(199, 98)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(67, 55)
-        Me.Label3.TabIndex = 6
-        Me.Label3.Text = "%"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(199, 43)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(78, 55)
-        Me.Label4.TabIndex = 7
-        Me.Label4.Text = "°C"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(12, 277)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(95, 33)
-        Me.Label5.TabIndex = 8
-        Me.Label5.Text = "00000"
+        Me.lblconexao.AutoSize = True
+        Me.lblconexao.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblconexao.Location = New System.Drawing.Point(12, 277)
+        Me.lblconexao.Name = "lblconexao"
+        Me.lblconexao.Size = New System.Drawing.Size(263, 33)
+        Me.lblconexao.TabIndex = 8
+        Me.lblconexao.Text = "Estado da conexão"
         '
         'SerialPort1
         '
@@ -138,16 +94,40 @@ Partial Class frmMultMeter
         '
         Me.DataGridView1.AllowUserToAddRows = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1})
-        Me.DataGridView1.Location = New System.Drawing.Point(479, 26)
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Idleitura, Me.Datadaleitura, Me.TemepraturaLida, Me.humidade, Me.OK})
+        Me.DataGridView1.Location = New System.Drawing.Point(18, 12)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(240, 150)
+        Me.DataGridView1.Size = New System.Drawing.Size(543, 193)
         Me.DataGridView1.TabIndex = 9
         '
-        'Column1
+        'Idleitura
         '
-        Me.Column1.HeaderText = "Column1"
-        Me.Column1.Name = "Column1"
+        Me.Idleitura.HeaderText = "ID leitura"
+        Me.Idleitura.Name = "Idleitura"
+        '
+        'Datadaleitura
+        '
+        Me.Datadaleitura.HeaderText = "Data da leitura"
+        Me.Datadaleitura.Name = "Datadaleitura"
+        '
+        'TemepraturaLida
+        '
+        Me.TemepraturaLida.HeaderText = "Temepratura Lida"
+        Me.TemepraturaLida.Name = "TemepraturaLida"
+        '
+        'humidade
+        '
+        Me.humidade.HeaderText = "Humidade Lida"
+        Me.humidade.Name = "humidade"
+        '
+        'OK
+        '
+        Me.OK.HeaderText = "ok"
+        Me.OK.Name = "OK"
+        '
+        'Timer1
+        '
+        Me.Timer1.Interval = 5000
         '
         'frmMultMeter
         '
@@ -155,11 +135,7 @@ Partial Class frmMultMeter
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblconexao)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Button2)
@@ -176,13 +152,13 @@ Partial Class frmMultMeter
     Friend WithEvents Button2 As Button
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Timer1 As Timer
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
+    Friend WithEvents lblconexao As Label
     Friend WithEvents SerialPort1 As IO.Ports.SerialPort
     Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents Idleitura As DataGridViewTextBoxColumn
+    Friend WithEvents Datadaleitura As DataGridViewTextBoxColumn
+    Friend WithEvents TemepraturaLida As DataGridViewTextBoxColumn
+    Friend WithEvents humidade As DataGridViewTextBoxColumn
+    Friend WithEvents OK As DataGridViewCheckBoxColumn
+    Friend WithEvents Timer1 As Timer
 End Class

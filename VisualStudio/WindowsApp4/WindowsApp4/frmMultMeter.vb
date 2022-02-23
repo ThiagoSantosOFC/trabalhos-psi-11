@@ -12,11 +12,11 @@ Public Class frmMultMeter
         Try
             SerialPort1.Open()
 
-            Label5.Text = "Conexão Ativa"
+            lblConexao.Text = "Conexão Ativa"
         Catch ex As Exception
-            MsgBox("Porta não está aberta")
+            MsgBox("A porta não está aberta")
             If SerialPort1.IsOpen = False Then
-                MsgBox("Portá não está aberta")
+                MsgBox("A porta não está aberta")
             End If
         End Try
     End Sub
@@ -27,27 +27,7 @@ Public Class frmMultMeter
 
         Catch ex As Exception
             MsgBox("Com Errada")
-            Label5.Text = "Sem Conexão"
-
-        End Try
-    End Sub
-
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        Try
-            TextBox1.Text = SerialPort1.ReadExisting
-            Dim TemperaturaSensor As String
-            TemperaturaSensor = (TextBox1.Lines(1).ToString)
-
-            Dim UmidadeSensor As String
-            UmidadeSensor = (TextBox1.Lines(0).ToString)
-
-            Label1.Text = TemperaturaSensor / 100.0
-            Label2.Text = UmidadeSensor / 100.0
-
-
-
-        Catch ex As Exception
-
+            lblconexao.Text = "Sem Conexão"
 
         End Try
     End Sub
@@ -72,6 +52,21 @@ Public Class frmMultMeter
         End If
         ReaderF1.Close()
         f1.Close()
+
+        Dim i As Integer
+
+        DataGridView1.Rows.Add()
+            DataGridView1.Rows(i).Cells(i).Value = "1"
+            DataGridView1.Rows(i).Cells(i).Value = "12-12-2015"
+            DataGridView1.Rows(i).Cells(i).Value = "20º"
+            DataGridView1.Rows(i).Cells(i).Value = True
+
+
+            DataGridView1.Rows.Add()
+            DataGridView1.Rows(i).Cells(i).Value = "2"
+            DataGridView1.Rows(i).Cells(i).Value = "12-12-2015"
+            DataGridView1.Rows(1).Cells(i).Value = "25º"
+            DataGridView1.Rows(i).Cells(i).Value = False
 
     End Sub
 End Class
