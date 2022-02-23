@@ -36,6 +36,7 @@ Partial Class frmMultMeter
         Me.humidade = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.OK = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Button3 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -129,11 +130,22 @@ Partial Class frmMultMeter
         '
         Me.Timer1.Interval = 5000
         '
+        'Button3
+        '
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!)
+        Me.Button3.Location = New System.Drawing.Point(568, 13)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(168, 192)
+        Me.Button3.TabIndex = 10
+        Me.Button3.Text = "Guardar Leituras"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'frmMultMeter
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.lblconexao)
         Me.Controls.Add(Me.TextBox1)
@@ -161,4 +173,5 @@ Partial Class frmMultMeter
     Friend WithEvents humidade As DataGridViewTextBoxColumn
     Friend WithEvents OK As DataGridViewCheckBoxColumn
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents Button3 As Button
 End Class
