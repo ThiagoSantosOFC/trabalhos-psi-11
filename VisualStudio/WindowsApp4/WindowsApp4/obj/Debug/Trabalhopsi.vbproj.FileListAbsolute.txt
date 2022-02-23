@@ -1,0 +1,12 @@
+C:\Users\52315\source\repos\VisualStudio\WindowsApp4\WindowsApp4\bin\Debug\WindowsApp4.exe.config
+C:\Users\52315\source\repos\VisualStudio\WindowsApp4\WindowsApp4\bin\Debug\WindowsApp4.exe
+C:\Users\52315\source\repos\VisualStudio\WindowsApp4\WindowsApp4\bin\Debug\WindowsApp4.pdb
+C:\Users\52315\source\repos\VisualStudio\WindowsApp4\WindowsApp4\bin\Debug\WindowsApp4.xml
+C:\Users\52315\source\repos\VisualStudio\WindowsApp4\WindowsApp4\obj\Debug\Trabalhopsi.vbproj.AssemblyReference.cache
+C:\Users\52315\source\repos\VisualStudio\WindowsApp4\WindowsApp4\obj\Debug\WindowsApp4.frmMultMeter.resources
+C:\Users\52315\source\repos\VisualStudio\WindowsApp4\WindowsApp4\obj\Debug\WindowsApp4.Resources.resources
+C:\Users\52315\source\repos\VisualStudio\WindowsApp4\WindowsApp4\obj\Debug\Trabalhopsi.vbproj.GenerateResource.cache
+C:\Users\52315\source\repos\VisualStudio\WindowsApp4\WindowsApp4\obj\Debug\Trabalhopsi.vbproj.CoreCompileInputs.cache
+C:\Users\52315\source\repos\VisualStudio\WindowsApp4\WindowsApp4\obj\Debug\WindowsApp4.exe
+C:\Users\52315\source\repos\VisualStudio\WindowsApp4\WindowsApp4\obj\Debug\WindowsApp4.xml
+C:\Users\52315\source\repos\VisualStudio\WindowsApp4\WindowsApp4\obj\Debug\WindowsApp4.pdb
