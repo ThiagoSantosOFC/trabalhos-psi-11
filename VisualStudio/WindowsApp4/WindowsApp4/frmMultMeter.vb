@@ -21,7 +21,7 @@ Public Class frmMultMeter
                     IdTMP._data = BR.ReadString
                     IdTMP._valor = BR.ReadDecimal
                     IdTMP._tipo = BR.ReadBoolean
-                    IdTMP.StoredTMP.Add(New Class_Main(IdTMP._id, IdTMP._data, IdTMP._valor, IdTMP._tipo)) ' Mete-los na ArrayList
+                    IdTMP.StoredTMP.Add(New Class_Main(IdTMP._id, IdTMP._data, IdTMP._valor, IdTMP._humidade, IdTMP._tipo)) ' Mete-los na ArrayList
                     temp = temp + 1
                 Loop
                 BR.Close() ' Fechar a leitura binaria

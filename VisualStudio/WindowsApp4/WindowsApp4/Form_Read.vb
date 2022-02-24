@@ -176,8 +176,9 @@
             Else ' senão
                 IdTMP._tipo = False
             End If
+            IdTMP._humidade = txtHum.Text 'valor da humidade 
             IdTMP._valor = txtCels.Text ' Valor da temperatura da TextBox
-            IdTMP.StoredTMP.Add(New Class_Main(IdTMP._id, IdTMP._data, IdTMP._valor, IdTMP._tipo)) ' Guardar todos os valores na ArrayList
+            IdTMP.StoredTMP.Add(New Class_Main(IdTMP._id, IdTMP._data, IdTMP._humidade, IdTMP._valor, IdTMP._tipo)) ' Guardar todos os valores na ArrayList
         Catch ex As Exception ' Se houver algum valor corrompido ou não existente
             MsgBox("Algo aconteceu de errado" & vbCrLf & "Talvez foi tentado guardar algo que ainda não existe!")
         End Try
