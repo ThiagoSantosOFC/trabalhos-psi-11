@@ -12,8 +12,9 @@
             For Each obj As Class_Main In IdTMP.StoredTMP ' Criar uma variavel que vai passar pela ArrayList toda
                 DataGridView1.Rows.Add() ' Adicionar linha
                 DataGridView1.Rows(obj._id - 1).Cells(0).Value = obj._id ' Insere o id unico
-                DataGridView1.Rows(obj._id - 1).Cells(1).Value = obj._data ' Insere a data e hora
-                DataGridView1.Rows(obj._id - 1).Cells(2).Value = obj._valor ' Insere o valor de temperatura
+                DataGridView1.Rows(obj._id - 1).Cells(1).Value = obj._valor ' Insere a temperatura
+                DataGridView1.Rows(obj._id - 1).Cells(2).Value = obj._humidade ' Insere o valor de humidade
+                DataGridView1.Rows(obj._id - 1).Cells(3).Value = obj._data ' Insere a data
 
                 If obj._tipo = True Then ' Caso for entre 10 a 20 graus
                     DataGridView1.Rows(obj._id - 1).Cells(3).Value = "S" ' Inserir como Sim no tipo

@@ -8,7 +8,7 @@
                     If obj._id = Val(txtSearch.Text) Then ' Se o id na ArrayList for o pretendente
                         lblDate.Text = ("Data/Hora: " & obj._data)
                         lblTMP.Text = ("Temperatura: " & obj._valor & "ºC")
-                        lblHUM.Text = ("Humidade:" & obj_humidade & "%")
+                        lblHUM.Text = ("Humidade:" & obj._humidade & "%")
                         If obj._tipo = True Then
                             lblType.Text = ("Está entre 10 a 20 ºC ?: Sim")
                         Else
