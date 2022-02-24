@@ -30,6 +30,7 @@ Partial Class Form_Find
         Me.lblType = New System.Windows.Forms.Label()
         Me.lblDate = New System.Windows.Forms.Label()
         Me.lblTMP = New System.Windows.Forms.Label()
+        Me.lblHUM = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -61,6 +62,7 @@ Partial Class Form_Find
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.lblHUM)
         Me.GroupBox1.Controls.Add(Me.lblType)
         Me.GroupBox1.Controls.Add(Me.lblDate)
         Me.GroupBox1.Controls.Add(Me.lblTMP)
@@ -98,6 +100,15 @@ Partial Class Form_Find
         Me.lblTMP.TabIndex = 4
         Me.lblTMP.Text = "Temperatura: "
         '
+        'lblHUM
+        '
+        Me.lblHUM.AutoSize = True
+        Me.lblHUM.Location = New System.Drawing.Point(151, 13)
+        Me.lblHUM.Name = "lblHUM"
+        Me.lblHUM.Size = New System.Drawing.Size(58, 13)
+        Me.lblHUM.TabIndex = 7
+        Me.lblHUM.Text = "Humidade:"
+        '
         'Form_Find
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -124,4 +135,5 @@ Partial Class Form_Find
     Friend WithEvents lblType As Label
     Friend WithEvents lblDate As Label
     Friend WithEvents lblTMP As Label
+    Friend WithEvents lblHUM As Label
 End Class

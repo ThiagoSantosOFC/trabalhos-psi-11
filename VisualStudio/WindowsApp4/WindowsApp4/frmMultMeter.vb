@@ -68,6 +68,7 @@ Public Class frmMultMeter
                     BW.Write(obj._data)
                     BW.Write(obj._valor)
                     BW.Write(obj._tipo)
+                    BW.Write(obj._humidade)
                 Next obj
                 BW.Close() ' Fechar a escrita binaria
                 FSficheiro.Close() ' Fechar a stream
