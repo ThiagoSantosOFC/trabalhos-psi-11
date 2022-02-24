@@ -1,0 +1,13 @@
+C:\Users\52315\source\repos\Tempera\bin\Debug\Tempera.exe.config
+C:\Users\52315\source\repos\Tempera\bin\Debug\Tempera.exe
+C:\Users\52315\source\repos\Tempera\bin\Debug\Tempera.pdb
+C:\Users\52315\source\repos\Tempera\bin\Debug\Tempera.xml
+C:\Users\52315\source\repos\Tempera\obj\Debug\Tempera.vbproj.AssemblyReference.cache
+C:\Users\52315\source\repos\Tempera\obj\Debug\Tempera.frmLeitor.resources
+C:\Users\52315\source\repos\Tempera\obj\Debug\Tempera.frm_menu.resources
+C:\Users\52315\source\repos\Tempera\obj\Debug\Tempera.Resources.resources
+C:\Users\52315\source\repos\Tempera\obj\Debug\Tempera.vbproj.GenerateResource.cache
+C:\Users\52315\source\repos\Tempera\obj\Debug\Tempera.vbproj.CoreCompileInputs.cache
+C:\Users\52315\source\repos\Tempera\obj\Debug\Tempera.exe
+C:\Users\52315\source\repos\Tempera\obj\Debug\Tempera.xml
+C:\Users\52315\source\repos\Tempera\obj\Debug\Tempera.pdb

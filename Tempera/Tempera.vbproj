@@ -4,14 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E8C6B26E-9E39-47E9-AA81-0DAF50C51786}</ProjectGuid>
+    <ProjectGuid>{1239A525-D1BD-4E7F-AB73-FD74EFD5EFCD}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>WindowsApp4.My.MyApplication</StartupObject>
-    <RootNamespace>WindowsApp4</RootNamespace>
-    <AssemblyName>WindowsApp4</AssemblyName>
+    <StartupObject>Tempera.My.MyApplication</StartupObject>
+    <RootNamespace>Tempera</RootNamespace>
+    <AssemblyName>Tempera</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>WindowsApp4.xml</DocumentationFile>
+    <DocumentationFile>Tempera.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>WindowsApp4.xml</DocumentationFile>
+    <DocumentationFile>Tempera.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -46,6 +46,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Google-Noto-Emoji-Travel-Places-42650-thermometer.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -74,29 +77,33 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class_Main.vb" />
-    <Compile Include="Form_find.Designer.vb">
-      <DependentUpon>Form_find.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form_find.vb">
+    <Compile Include="frmLeitor.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Open.Designer.vb">
-      <DependentUpon>Form_Open.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form_Open.vb">
+    <Compile Include="frmLeitor.Designer.vb">
+      <DependentUpon>frmLeitor.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Read.Designer.vb">
-      <DependentUpon>Form_Read.vb</DependentUpon>
+    <Compile Include="frmGuardar.Designer.vb">
+      <DependentUpon>frmGuardar.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form_Read.vb">
+    <Compile Include="frmGuardar.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMultMeter.vb">
+    <Compile Include="frmMenu.Designer.vb">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.vb" />
+    <Compile Include="frmPesquisa.Designer.vb">
+      <DependentUpon>frmPesquisa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPesquisa.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMultMeter.Designer.vb">
-      <DependentUpon>frmMultMeter.vb</DependentUpon>
+    <Compile Include="frm_Pesquisa.Designer.vb">
+      <DependentUpon>frm_Pesquisa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Pesquisa.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Module_Variables.vb" />
@@ -104,6 +111,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -117,17 +125,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form_find.resx">
-      <DependentUpon>Form_find.vb</DependentUpon>
+    <EmbeddedResource Include="frmLeitor.resx">
+      <DependentUpon>frmLeitor.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Open.resx">
-      <DependentUpon>Form_Open.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_Read.resx">
-      <DependentUpon>Form_Read.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmMultMeter.resx">
-      <DependentUpon>frmMultMeter.vb</DependentUpon>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -147,6 +149,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Google-Noto-Emoji-Travel-Places-42650-thermometer.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -23,155 +23,153 @@ Partial Class frmMultMeter
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.lblconexao = New System.Windows.Forms.Label()
-        Me.SerialPort1 = New System.IO.Ports.SerialPort(Me.components)
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Idleitura = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Datadaleitura = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TemepraturaLida = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.humidade = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.OK = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.Button3 = New System.Windows.Forms.Button()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMultMeter))
+        Me.btnsave = New System.Windows.Forms.Button()
+        Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.btnOpen = New System.Windows.Forms.Button()
+        Me.btnSearch = New System.Windows.Forms.Button()
+        Me.btnRead = New System.Windows.Forms.Button()
+        Me.btnInfo = New System.Windows.Forms.Button()
+        Me.btnAbrir = New System.Windows.Forms.Button()
+        Me.lblTitulo = New System.Windows.Forms.Label()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.lblStatusS = New System.Windows.Forms.Label()
+        Me.Timer_POP = New System.Windows.Forms.Timer(Me.components)
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Button1
+        'btnsave
         '
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(12, 328)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(181, 110)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Abrir Conexão"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnsave.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.75!)
+        Me.btnsave.Location = New System.Drawing.Point(0, 32)
+        Me.btnsave.Name = "btnsave"
+        Me.btnsave.Size = New System.Drawing.Size(195, 81)
+        Me.btnsave.TabIndex = 10
+        Me.btnsave.Text = "Guardar Leituras"
+        Me.btnsave.UseVisualStyleBackColor = True
         '
-        'Button2
+        'OpenFileDialog1
         '
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(199, 328)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(181, 110)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Conectar"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
-        'ComboBox1
+        'btnOpen
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"COM1", "COM2", "COM3", "COM4", "COM5", "COM6", "COM7", "COM8", "COM9", "COM10"})
-        Me.ComboBox1.Location = New System.Drawing.Point(387, 416)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox1.TabIndex = 2
+        Me.btnOpen.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.75!)
+        Me.btnOpen.Location = New System.Drawing.Point(221, 30)
+        Me.btnOpen.Name = "btnOpen"
+        Me.btnOpen.Size = New System.Drawing.Size(195, 85)
+        Me.btnOpen.TabIndex = 11
+        Me.btnOpen.Text = "Abrir Leituras"
+        Me.btnOpen.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'btnSearch
         '
-        Me.TextBox1.Location = New System.Drawing.Point(514, 277)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(205, 161)
-        Me.TextBox1.TabIndex = 3
+        Me.btnSearch.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.25!)
+        Me.btnSearch.Location = New System.Drawing.Point(12, 170)
+        Me.btnSearch.Name = "btnSearch"
+        Me.btnSearch.Size = New System.Drawing.Size(195, 81)
+        Me.btnSearch.TabIndex = 13
+        Me.btnSearch.Text = "Pesquisar leituras"
+        Me.btnSearch.UseVisualStyleBackColor = True
         '
-        'lblconexao
+        'btnRead
         '
-        Me.lblconexao.AutoSize = True
-        Me.lblconexao.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblconexao.Location = New System.Drawing.Point(12, 277)
-        Me.lblconexao.Name = "lblconexao"
-        Me.lblconexao.Size = New System.Drawing.Size(263, 33)
-        Me.lblconexao.TabIndex = 8
-        Me.lblconexao.Text = "Estado da conexão"
+        Me.btnRead.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.25!)
+        Me.btnRead.Location = New System.Drawing.Point(12, 83)
+        Me.btnRead.Name = "btnRead"
+        Me.btnRead.Size = New System.Drawing.Size(195, 81)
+        Me.btnRead.TabIndex = 14
+        Me.btnRead.Text = "Ler Temperatura"
+        Me.btnRead.UseVisualStyleBackColor = True
         '
-        'SerialPort1
+        'btnInfo
         '
-        Me.SerialPort1.PortName = "COM8"
+        Me.btnInfo.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.25!)
+        Me.btnInfo.Location = New System.Drawing.Point(233, 169)
+        Me.btnInfo.Name = "btnInfo"
+        Me.btnInfo.Size = New System.Drawing.Size(195, 80)
+        Me.btnInfo.TabIndex = 15
+        Me.btnInfo.Text = "Outras informações"
+        Me.btnInfo.UseVisualStyleBackColor = True
         '
-        'DataGridView1
+        'btnAbrir
         '
-        Me.DataGridView1.AllowUserToAddRows = False
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Idleitura, Me.Datadaleitura, Me.TemepraturaLida, Me.humidade, Me.OK})
-        Me.DataGridView1.Location = New System.Drawing.Point(18, 12)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(543, 193)
-        Me.DataGridView1.TabIndex = 9
+        Me.btnAbrir.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.25!)
+        Me.btnAbrir.Location = New System.Drawing.Point(233, 83)
+        Me.btnAbrir.Name = "btnAbrir"
+        Me.btnAbrir.Size = New System.Drawing.Size(195, 80)
+        Me.btnAbrir.TabIndex = 16
+        Me.btnAbrir.Text = "Ver historico de leituras"
+        Me.btnAbrir.UseVisualStyleBackColor = True
         '
-        'Idleitura
+        'lblTitulo
         '
-        Me.Idleitura.HeaderText = "ID leitura"
-        Me.Idleitura.Name = "Idleitura"
+        Me.lblTitulo.AutoSize = True
+        Me.lblTitulo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.25!)
+        Me.lblTitulo.Location = New System.Drawing.Point(24, 21)
+        Me.lblTitulo.Name = "lblTitulo"
+        Me.lblTitulo.Size = New System.Drawing.Size(356, 20)
+        Me.lblTitulo.TabIndex = 17
+        Me.lblTitulo.Text = "MultiMeter - Leitor de temperatura e humidade"
         '
-        'Datadaleitura
+        'GroupBox1
         '
-        Me.Datadaleitura.HeaderText = "Data da leitura"
-        Me.Datadaleitura.Name = "Datadaleitura"
+        Me.GroupBox1.Controls.Add(Me.lblStatusS)
+        Me.GroupBox1.Controls.Add(Me.btnsave)
+        Me.GroupBox1.Controls.Add(Me.btnOpen)
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 298)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(420, 140)
+        Me.GroupBox1.TabIndex = 18
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Gestão de Ficheiros:"
         '
-        'TemepraturaLida
+        'lblStatusS
         '
-        Me.TemepraturaLida.HeaderText = "Temepratura Lida"
-        Me.TemepraturaLida.Name = "TemepraturaLida"
+        Me.lblStatusS.AutoSize = True
+        Me.lblStatusS.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.25!)
+        Me.lblStatusS.Location = New System.Drawing.Point(126, 116)
+        Me.lblStatusS.Name = "lblStatusS"
+        Me.lblStatusS.Size = New System.Drawing.Size(158, 20)
+        Me.lblStatusS.TabIndex = 12
+        Me.lblStatusS.Text = "Ficheiro guardado!!!"
+        Me.lblStatusS.Visible = False
         '
-        'humidade
+        'Timer_POP
         '
-        Me.humidade.HeaderText = "Humidade Lida"
-        Me.humidade.Name = "humidade"
-        '
-        'OK
-        '
-        Me.OK.HeaderText = "ok"
-        Me.OK.Name = "OK"
-        '
-        'Timer1
-        '
-        Me.Timer1.Interval = 5000
-        '
-        'Button3
-        '
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!)
-        Me.Button3.Location = New System.Drawing.Point(568, 13)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(168, 192)
-        Me.Button3.TabIndex = 10
-        Me.Button3.Text = "Guardar Leituras"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Timer_POP.Interval = 1000
         '
         'frmMultMeter
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.lblconexao)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.ClientSize = New System.Drawing.Size(440, 450)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.lblTitulo)
+        Me.Controls.Add(Me.btnAbrir)
+        Me.Controls.Add(Me.btnInfo)
+        Me.Controls.Add(Me.btnRead)
+        Me.Controls.Add(Me.btnSearch)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmMultMeter"
         Me.Text = "MultiMeter"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents lblconexao As Label
-    Friend WithEvents SerialPort1 As IO.Ports.SerialPort
-    Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents Idleitura As DataGridViewTextBoxColumn
-    Friend WithEvents Datadaleitura As DataGridViewTextBoxColumn
-    Friend WithEvents TemepraturaLida As DataGridViewTextBoxColumn
-    Friend WithEvents humidade As DataGridViewTextBoxColumn
-    Friend WithEvents OK As DataGridViewCheckBoxColumn
-    Friend WithEvents Timer1 As Timer
-    Friend WithEvents Button3 As Button
+    Friend WithEvents btnsave As Button
+    Friend WithEvents SaveFileDialog1 As SaveFileDialog
+    Friend WithEvents OpenFileDialog1 As OpenFileDialog
+    Friend WithEvents btnOpen As Button
+    Friend WithEvents btnSearch As Button
+    Friend WithEvents btnRead As Button
+    Friend WithEvents btnInfo As Button
+    Friend WithEvents btnAbrir As Button
+    Friend WithEvents lblTitulo As Label
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents Timer_POP As Timer
+    Friend WithEvents lblStatusS As Label
 End Class

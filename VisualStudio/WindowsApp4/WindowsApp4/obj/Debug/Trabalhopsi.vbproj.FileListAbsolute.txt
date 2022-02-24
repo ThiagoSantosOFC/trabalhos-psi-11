@@ -10,3 +10,6 @@ C:\Users\52315\source\repos\VisualStudio\WindowsApp4\WindowsApp4\obj\Debug\Traba
 C:\Users\52315\source\repos\VisualStudio\WindowsApp4\WindowsApp4\obj\Debug\WindowsApp4.exe
 C:\Users\52315\source\repos\VisualStudio\WindowsApp4\WindowsApp4\obj\Debug\WindowsApp4.xml
 C:\Users\52315\source\repos\VisualStudio\WindowsApp4\WindowsApp4\obj\Debug\WindowsApp4.pdb
+C:\Users\52315\source\repos\VisualStudio\WindowsApp4\WindowsApp4\obj\Debug\WindowsApp4.Form_Find.resources
+C:\Users\52315\source\repos\VisualStudio\WindowsApp4\WindowsApp4\obj\Debug\WindowsApp4.Form_Open.resources
+C:\Users\52315\source\repos\VisualStudio\WindowsApp4\WindowsApp4\obj\Debug\WindowsApp4.Form_Read.resources
